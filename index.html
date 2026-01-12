@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Attendance Predictor</title>
+<link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+<div id="full">
+<h1>Attendance Predictor</h1>
+
+<section id="inputs">
+
+<label>Current Date</label>
+<input type="date" id="currentdate"><br>
+
+<label>Classes Attended So Far</label>
+<input type="number" id="attended" min="0"><br>
+
+<label><strong>Subject Class Days</strong></label><br>
+<input type="checkbox" value="1" class="day"> Monday<br>
+<input type="checkbox" value="2" class="day"> Tuesday<br>
+<input type="checkbox" value="3" class="day"> Wednesday<br>
+<input type="checkbox" value="4" class="day"> Thursday<br>
+<input type="checkbox" value="5" class="day"> Friday<br>
+
+
+<button id="calculate">Calculate Attendance</button>
+
+</section>
+
+<div id="result"></div>
+</div>
+
+<script src="../JS/script.js"></script>
+</body>
+</html>
+
+
+
